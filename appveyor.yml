@@ -47,6 +47,6 @@ only_commits:
 
 test_script:
   - ctest -C %CONFIGURATION% --output-on-failure
-  - cd ../Tests && bash runtests
+  - cd ../Test && bash runtests
   - cd ../build
 
