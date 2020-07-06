@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 
 TEST(ExampleTests, DemonstrateGTestMacros) {
-    EXPECT_TRUE(true);
+    EXPECT_TRUE(false);
 } 
 
  
