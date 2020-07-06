@@ -44,3 +44,9 @@ only_commits:
     - appveyor.yml
     - source/
     - cmake/
+
+test_script:
+  - ctest -C %CONFIGURATION% --output-on-failure
+  - cd ../Test && bash runtests
+  - cd ../build
+
